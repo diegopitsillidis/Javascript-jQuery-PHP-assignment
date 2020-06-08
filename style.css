@@ -1,0 +1,101 @@
+body {
+	background-color: hsl(50%, 50%, 50%, 0.5);
+	font-family: sans-serif;
+	margin: 0; 
+	padding: 0;}
+	
+h1 {
+	color: #66B2FF;
+	margin: 0 auto 0 auto;
+	padding: 30px 10px 20px 10px;}
+	
+h2 {
+	color: #66B2FF;
+	margin: 0 0 10px 0;
+	padding: 0px 10px 20px 10px;}
+
+
+p {
+	color: #66B2FF;}
+	
+.footer {
+	
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(0,0,0,0.8);
+   text-align: center;
+}
+
+#submitButton {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #66B2FF;
+	border-radius: 12px;
+}
+	
+.container {
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.page {
+	min-height: 150px;
+	padding: 12px 20px;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 5px 10px 25px #888888;
+}
+
+table {
+	text-align: center;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: rgba(0,0,0,0.3);
+}
+
+tr {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.odd {
+	background-color: rgba(0,0,0,0.2);
+}
+
+tr.searchable:hover {
+	background-color: rgba(0,0,0,0.4);
+}
+
+select:hover {
+	background-color: rgba(0,0,0,0.05);
+}
+
+#dataSetSection {
+	display:none;
+}
+
+#tableSection {
+	display:none;
+}
+
+#searchSection {
+	display:none;
+}
+
+#insertSection {
+	display:none;
+}

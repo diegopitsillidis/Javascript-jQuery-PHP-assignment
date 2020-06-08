@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">    
+    <title>Assignment</title>
+  
+    <link rel="stylesheet" href="style.css">
+	
+	</head>
+	<body class="container">
+		<!-- HEADER --->
+		<div class="page">
+			<h1 id="header">Assignment</h1>
+			<h2>Diego Pitsillidis - 17136733</h2>
+		</div>
+		<!-- ----- --->
+		
+		<!-- DATA SOURCE DROP-DOWN BOX --->
+		<div id="dataSourceSection" class="page">
+			<h2>Choose a Data Source</h2>
+			<!---<p>Data source Drop-down box</p>--->
+			<form>
+				<select name="sources">
+					<option value="none">Choose an option</option>
+					<option value="XML">XML</option>
+					<option value="database">Database</option>
+				</select>
+			</form>
+		</div>
+		<!-- ----- --->
+		
+		<!-- DATA SET DROP-DOWN BOX --->
+		<div id="dataSetSection" class="page">
+			<h2>Choose a Data Set</h2>
+			<!---<p>Data set Drop-down box (Only available once a data source is selected)</p>--->
+			<form>
+				<select name="sets">
+				</select>
+			</form>
+			
+		</div>
+		<!-- ----- --->
+		
+		<!-- TABLE --->
+		<div id="tableSection" class="page">
+		<h2>Table Contents</h2>
+			<!---<p>Table (Only available once a database table or XML file is selected</p>--->
+			<table id="myTable">
+				<!-- TABLE CONTENT --->
+			</table>
+		</div>
+		<!-- ----- --->
+		
+		<!-- SEARCH --->
+		<div id="searchSection" class="page">
+			<!---<p>Select column to search</p>--->
+			<h2>Choose a Column to Search</h2>
+			<form>
+				<select name="columns">
+					<option value="1"></option>
+					<option value="2">second</option>
+				</select>
+			</form>
+			<!---<p>Search functionality (Only available when table is visible)</p>--->
+				<input type="text" id="myInput" placeholder="Search...">
+			</div>
+		</div>
+		<!-- ----- --->
+		
+		<!-- INSERT --->
+		<div id="insertSection" class="page">
+		<h2>Insert into Table</h2>
+			<!---<p>Insert functionality (Only available when table is visible)</p>--->
+			<p id="output"></p>
+
+			<form id="insert">
+			  
+			  <!---<p>First name:</p> <input type="text" name="fname" id="fname"><br>
+			  <p>Last name:</p> <input type="text" name="lname" id="lname"><br>
+			  <input type="button" id="submitButton" value="Submit">--->
+			  
+			</form>
+			
+		</div>
+		<!-- ----- --->
+		
+		<!-- Footer --->
+		<br></br><br></br>
+		<div class="footer">
+			<p>Footer</p>
+		</div>
+		<!-- ----- --->
+
+		<script src="jquery-3.4.1.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
