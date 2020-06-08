@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STAFF>
+  <CLEANER>
+    <FIRSTNAME>James</FIRSTNAME>
+    <LASTNAME>Smith</LASTNAME>
+  </CLEANER>
+  <CLEANER>
+    <FIRSTNAME>Bob</FIRSTNAME>
+    <LASTNAME>Jones</LASTNAME>
+  </CLEANER>
+  <CLEANER>
+    <FIRSTNAME>Billy</FIRSTNAME>
+    <LASTNAME>Bob</LASTNAME>
+  </CLEANER>
+</STAFF>
